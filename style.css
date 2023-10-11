@@ -5,3 +5,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: #FF6900;
+    height: 70px;
+    color: white;
+}
+
+section {
+    height: 70px;
+    width: 1200px;
+    margin: auto; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+.flex-nav-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.flex-nav-start > li {
+    padding: 8px;
+    text-align: center;
+
+}
+
+
+.logo img {
+    height: 30px;
+
+}
+
+.flex-nav-logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-nav-icons {
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.icons {
+    height: 15px;
+    color: white;
+}
+
+.icons > i {
+    padding: 8px;
+}
+
