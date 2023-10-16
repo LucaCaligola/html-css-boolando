@@ -14,7 +14,7 @@ header {
 
 section {
     height: 70px;
-    width: 1200px;
+    max-width: 1200px;
     margin: auto; 
 }
 
@@ -66,7 +66,7 @@ li {
 }
 
 main {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
     padding: 40px 0px 60px 0px;
 
@@ -133,3 +133,128 @@ footer {
     font-size: 12px;
     padding-top: 5px;
 }
+
+.red {
+    color: red;
+
+}
+
+.icons > i {
+    padding: 3px;
+
+}
+.relative {
+    position: relative;
+}
+.targa-rossa {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    padding: 3px;
+}
+
+.targa-verde {
+    background-color: green;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    /* left: 60px; */
+    bottom: 50px;
+    padding: 3px;
+}
+
+.verde {
+    left: 60px;
+}
+
+
+.img1 a :hover {
+    background-image: url(img/1b.webp);
+    
+}
+
+
+.black {
+    /* background-color: green;
+    color: white;
+    display: inline-block;
+    position: absolute; */
+    left: 810px;
+    /* bottom: 50px; */
+    /* padding: 3px; */
+}
+
+.relaxed {
+    left: 10px;
+    bottom: 50px;
+}
+
+.guess {
+    left: 410px;
+    bottom: 50px;
+}
+
+.zucchero {
+    left: 810px;
+    bottom: 50px;
+
+}
+
+.primo:hover {
+   content: url(img/1b.webp);
+}
+
+.secondo:hover {
+    content: url(img/2b.webp);
+ }
+
+ .terzo:hover {
+    content: url(img/3b.webp);
+ }
+
+ .quarto:hover {
+    content: url(img/4b.webp);
+ }
+
+ .quinto:hover {
+    content: url(img/5b.webp);
+ }
+
+ .sesto:hover {
+    content: url(img/6b.webp);
+ }
+
+ .cuore {
+    position: absolute;
+    left: 355px;
+    top: 30px;
+    font-size: 25px;
+ }
+
+ .cuore-rosso:hover {
+    color: red;
+ }
+
+ .cuore2 {
+    position: absolute;
+    left: 755px;
+    top: 30px;
+    font-size: 25px;
+ }
+
+ .cuore3 {
+    position: absolute;
+    left: 1155px;
+    top: 30px;
+    font-size: 25px;
+ }
+
+ .cuore4 {
+    position: absolute;
+    left: 455px;
+    top: 730px;
+    font-size: 25px;
+ }
+
+ 
